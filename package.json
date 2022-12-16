@@ -20,5 +20,8 @@
     "gulp-uglify-es": "^3.0.0",
     "pngquant-bin": "^6.0.0",
     "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }
