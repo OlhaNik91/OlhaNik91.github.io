@@ -1,3 +1,67 @@
-body {
-    font-family: 'Poppins', sans-serif;
+h1,
+.h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    // color: $white;
+}
+
+h2,
+.h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: $black;
+}
+
+h3,
+.h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: $black;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: $black;
+}
+
+p.new-article {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $dark-grey;
+}
+
+p.article {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $black;
+}
+
+p.team {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: $black;
+}
+
+a {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark;
+    text-decoration: none;
 }
