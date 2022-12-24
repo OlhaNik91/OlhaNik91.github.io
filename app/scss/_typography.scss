@@ -1,5 +1,5 @@
-h1, h2, h3, p {
-    font-family: 'Poppins';
+body {
+    font-family: $main-font;
     color:$black
 }
 
@@ -87,38 +87,8 @@ p {
     }
 }
 
-.new-article {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: $dark-grey;
-    @include media-breakpoint-down(xl) {
-        font-size: 16px;
-        line-height: 24px;
-    }
 
-    @include media-breakpoint-down(md) {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 14px;
-        line-height: 20px;
-    }
-}
-
-.article {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: $black;
-}
-
-.team {
-    font-family: 'Poppins';
+time {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -126,47 +96,13 @@ p {
 }
 
 a {
-    font-family: 'Poppins';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: $dark;
+    font-size: inherit;
+    line-height: inherit;
+    color: $light-green;
     text-decoration: none;
-}
-
-button.material, button.qa, button.ux, button.management, button.mobile, button.web{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 24px;
-    padding: 0 6px;
-    border: none;
-    border-radius: 5px;
-    color: $white;
-}
-
-button.material{
-    color: $black;
-    background-color: $white;
-    border: 1px solid $black;
-}
-
-button.qa{
-    background-color: $green;
-}
-
-button.ux{
-    background-color: $orange;
-}
-
-button.management{
-    background-color: $violet;
-}
-
-button.mobile{
-    background-color: $dark-blue;
-}
-
-button.web{
-    background-color: $coral;
+    
+    &:hover{
+        color: $green;
+    }
 }
