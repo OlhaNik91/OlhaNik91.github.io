@@ -129,3 +129,11 @@ a {
         color: $green;
     }
 }
+
+button.btn {
+    width: 148px; 
+    height: 56px;
+    background: $light-green;
+    border-radius: 4px;
+    color: $total-white;
+}
