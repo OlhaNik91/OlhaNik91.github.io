@@ -1,0 +1,19 @@
+.contact{
+    margin: 63px 0;
+}
+
+.feedback{
+    max-width: 503px;
+    background-color: $black;
+    border-radius: 4px;
+    padding: 56px 64px 64px 64px;
+}
+
+.feedback .h4, p{
+    color: $white;
+}
+
+legend p{
+    font-size: 14px;
+    line-height: 21px;
+}
