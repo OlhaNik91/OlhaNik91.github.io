@@ -111,35 +111,23 @@ p {
     }
 }
 
-cite {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-time {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: $black;
-}
-
 a {
     font-weight: 500;
     font-size: inherit;
     line-height: inherit;
-    color: $light-green;
+    // color: $light-green;
     text-decoration: none;
     
-    &:hover{
-        color: $green;
-    }
+    // &:hover{
+    //     color: $green;
+    // }
 }
 
 button.btn {
     width: 148px; 
     height: 56px;
-    background: $light-green;
+    margin-top: 32px;
     border-radius: 4px;
+    background: $light-green;
     color: $total-white;
 }
