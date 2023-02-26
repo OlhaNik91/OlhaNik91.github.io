@@ -7,6 +7,7 @@
         padding: 0 7px;
         margin-right: 4px;
         color: $white;
+        border-radius: 5px;
 
         &.white {
             color: $black;
@@ -15,6 +16,22 @@
 
         &.blue {
             background-color: $dark-blue;
+        }
+
+        &.red {
+            background-color: $coral;
+        }
+
+        &.green {
+            background-color: $green;
+        }
+
+        &.purple {
+            background-color: $violet;
+        }
+
+        &.yellow {
+            background-color: $orange;
         }
     }
 }
