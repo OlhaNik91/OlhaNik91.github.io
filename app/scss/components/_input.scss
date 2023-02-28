@@ -1,3 +1,18 @@
 .form-control {
-    
+    background-color: $black;
+    border-bottom: 1px solid $white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    margin-bottom: 21px;
+}
+
+.form-control:focus {
+    background-color: $black;
+}
+
+.form-floating label {
+    padding: 24px 0 0 0;
+    color: $grey;
 }

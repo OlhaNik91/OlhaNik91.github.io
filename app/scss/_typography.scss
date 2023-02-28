@@ -64,7 +64,7 @@ h3,
 h4, .h4{
     font-weight: 600;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 33px;
 
     @include media-breakpoint-down(md) {
         line-height: 34px;
@@ -130,11 +130,17 @@ a {
     }
 }
 
-button.btn {
+button, .btn, input[type=button], input[type=submit] {
     width: 148px; 
     height: 56px;
-    margin-top: 32px;
     border-radius: 4px;
     background: $light-green;
     color: $total-white;
+    transition-duration: 0.3s;
+}
+
+button:hover, .btn:hover, input[type=button]:hover, input[type=submit]:hover{
+    background: $green;
+    color: $white;
+    transition: 0.3s;
 }
