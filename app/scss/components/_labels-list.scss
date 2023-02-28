@@ -1,0 +1,37 @@
+.labels-list {
+     display: flex;
+     padding-left: 0;
+     list-style: none;
+
+    li {
+        padding: 0 7px;
+        margin-right: 4px;
+        color: $white;
+        border-radius: 5px;
+
+        &.white {
+            color: $black;
+            background-color: $white;
+        }
+
+        &.blue {
+            background-color: $dark-blue;
+        }
+
+        &.red {
+            background-color: $coral;
+        }
+
+        &.green {
+            background-color: $green;
+        }
+
+        &.purple {
+            background-color: $violet;
+        }
+
+        &.yellow {
+            background-color: $orange;
+        }
+    }
+}

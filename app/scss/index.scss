@@ -13,10 +13,16 @@
 
 @import 'components/textarea';
 
+@import 'components/post-data';
+
+@import 'components/labels-list';
+
 //widgets
 @import 'widgets/header';
 
 @import 'widgets/contact';
+
+@import 'widgets/featured-posts';
 
 //layouts
 @import 'layouts/home';
