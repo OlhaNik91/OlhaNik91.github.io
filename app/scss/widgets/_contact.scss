@@ -1,75 +1,90 @@
 .contact{
-    margin: 63px auto;
-}
-.contact h2{
-    font-size: 41px;
-    margin: 7px auto 67px;
-    text-align: center;
+    margin: 63px auto 200px;
+
+    h2 {
+        font-size: 41px;
+        margin: 7px auto 67px;
+        text-align: center;
+    }
+
+    .feedback {
+        max-width: 503px;
+        min-height: 563px;
+        margin: auto;
+        background-color: $black;
+        border-radius: 4px;
+        padding: 56px 62px 64px 65px;
+
+        h4, p {
+                color: $white;
+                margin-bottom: 34px;
+            }
+        
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 29px;
+        }
+
+        .form-floating .form-control {
+            color: $white;
+        }
+    }
+
+    .half-circle {
+        position: absolute;
+        top: 261px;
+        left: 38px;
+    }
+
+    .circle-pink {
+        position: absolute;
+        top: 333px;
+        left: 371px;
+    }
+
+    .bagel {
+        position: absolute;
+        top: 428px;
+        left: 216px;
+    }
+
+    .group {
+        position: absolute;
+        left: 163px;
+        bottom: 266px;
+    }
+
+    .rectangle {
+        position: absolute;
+        left: 112px;
+        bottom: -95px;
+    }
+
+    .star {
+        position: absolute;
+        top: 451px;
+        right: 267px;
+    }
+
+    .quadrant {
+        position: absolute;
+        top: 413px;
+        right: 144px;
+    }
+
+    .semicircle {
+        position: absolute;
+        bottom: -73px;
+        right: 287px;
+        z-index: -1;
+    }
+
+    .circle-blue {
+        position: absolute;
+        bottom: 194px;
+        right: 97px;
+    }
 }
 
-.feedback {
-    max-width: 503px;
-    min-height: 563px;
-    margin: auto;
-    background-color: $black;
-    border-radius: 4px;
-    padding: 56px 62px 64px 65px;
-}
 
-.feedback h4, p{
-    color: $white;
-    margin-bottom: 34px;
-}
-
-.feedback p{
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 29px;
-}
-
-.form-floating .form-control{
-    color: $white;
-}
-
-.contact img{
-    position: absolute;
-}
-
-.half-circle{
-    top: 261px;
-    left: 38px;
-}
-
-.circle-pink{
-    top: 333px;
-    left: 371px;
-}
-.bagel{
-    top: 428px;
-    left: 216px;
-}
-.group{
-    left: 163px;
-    bottom: 266px;
-}
-.rectangle{
-    left: 112px;
-    bottom: -95px;
-}
-.star{
-    top: 451px;
-    right: 267px;
-}
-.quadrant{
-    top: 413px;
-    right: 144px;
-}
-.semicircle{
-    bottom: -73px;
-    right: 287px;
-
-}
-.circle-blue{
-    bottom: 194px;
-    right: 97px;
-}

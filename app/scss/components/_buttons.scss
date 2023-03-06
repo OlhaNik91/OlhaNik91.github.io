@@ -1,3 +1,15 @@
-.btn {
+button, .btn, input[type=button], input[type=submit] {
+    width: 148px;
+    height: 56px;
+    border-radius: 4px;
     margin: 11px 113px 1px;
+    background: $light-green;
+    color: $total-white;
+    transition-duration: 0.3s;
+
+    &:hover {
+        background: $green;
+        color: $white;
+        transition: 0.3s;
+    }
 }

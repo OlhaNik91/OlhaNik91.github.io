@@ -123,17 +123,4 @@ a {
     // }
 }
 
-button, .btn, input[type=button], input[type=submit] {
-    width: 148px; 
-    height: 56px;
-    border-radius: 4px;
-    background: $light-green;
-    color: $total-white;
-    transition-duration: 0.3s;
-}
 
-button:hover, .btn:hover, input[type=button]:hover, input[type=submit]:hover{
-    background: $green;
-    color: $white;
-    transition: 0.3s;
-}
